@@ -33,12 +33,21 @@ A repository for notes on [mlrun](https://github.com/mlrun/mlrun)
 
 ## Getting Started
 
-* Install
+* Install (Make sure you have the latest `pip`).  Install will take several minutes and requires Rust and Cython.
 
-`pip install mlrun`
+Create and source a python virtualenv:  `python3 -m venv ~/.mlrun-notes && source ~/.mlrun-notes/bin/activate`
+`pip install --upgrade pip && pip install mlrun`
 
 
+## Common Install Errors and Gotchas
 
+* Operating Specific:
+  * OS X (install latest Python and Rust):  `brew install python` and `brew install rust`  
+
+* `ModuleNotFoundError: No module named 'Cython'`
+* `RuntimeError: cargo not found in PATH. Please install rust (https://www.rust-lang.org/tools/install) and try again`
+* `clang: error: the clang compiler does not support 'faltivec', please use -maltivec and include altivec.h explicitly`
+* `ERROR: Could not build wheels for maturin, which is required to install pyproject.toml-based projects`
 
 ## References
 
