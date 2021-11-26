@@ -42,10 +42,10 @@ Create and source a python virtualenv:  `python3 -m venv ~/.mlrun-notes && sourc
 ## Common Install Errors and Gotchas
 
 * Operating Specific:
-  * OS X (install latest Python):  `brew install python`   
+  * OS X (install latest Python and Rust):  `brew install python` and `brew install rust`  
 
 * `ModuleNotFoundError: No module named 'Cython'`
-
+* `RuntimeError: cargo not found in PATH. Please install rust (https://www.rust-lang.org/tools/install) and try again`
 
 ## References
 
