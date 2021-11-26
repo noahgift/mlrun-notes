@@ -33,9 +33,9 @@ A repository for notes on [mlrun](https://github.com/mlrun/mlrun)
 
 ## Getting Started
 
-* Install
+* Install (Make sure you have the latest `pip`)
 
-`pip install mlrun`
+`pip install --upgrade pip && pip install mlrun`
 
 
 
