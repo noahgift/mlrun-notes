@@ -46,6 +46,7 @@ Create and source a python virtualenv:  `python3 -m venv ~/.mlrun-notes && sourc
 
 * `ModuleNotFoundError: No module named 'Cython'`
 * `RuntimeError: cargo not found in PATH. Please install rust (https://www.rust-lang.org/tools/install) and try again`
+* `clang: error: the clang compiler does not support 'faltivec', please use -maltivec and include altivec.h explicitly`
 
 ## References
 
