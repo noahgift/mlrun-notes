@@ -75,6 +75,8 @@ deploy error, local docker registry is not defined, set DEFAULT_DOCKER_REGISTRY/
 
 * Hello World example
 * Target environment recommendation:  Github Codespaces, AWS Cloudshell, etc
+* Hello World using a pre-built Docker pull command
+* Separate demos with foolproof "hello world" commands for each architectural component
 
 ## References
 
