@@ -41,13 +41,21 @@ Create and source a python virtualenv:  `python3 -m venv ~/.mlrun-notes && sourc
 
 ## Common Install Errors and Gotchas
 
-* Operating Specific:
-  * OS X (install latest Python and Rust):  `brew install python` and `brew install rust`  
+### Operating Specific:
+#### OS X 
+ 
+ Can take 30+ minutes to install and contains many dependency errors.
+ 
+  * install latest Python and Rust):  `brew install python` and `brew install rust`  
+  * `ModuleNotFoundError: No module named 'Cython'`
+  * `RuntimeError: cargo not found in PATH. Please install rust (https://www.rust-lang.org/tools/install) and try again`
+  * `clang: error: the clang compiler does not support 'faltivec', please use -maltivec and include altivec.h explicitly`
+  * `ERROR: Could not build wheels for maturin, which is required to install pyproject.toml-based projects`
 
-* `ModuleNotFoundError: No module named 'Cython'`
-* `RuntimeError: cargo not found in PATH. Please install rust (https://www.rust-lang.org/tools/install) and try again`
-* `clang: error: the clang compiler does not support 'faltivec', please use -maltivec and include altivec.h explicitly`
-* `ERROR: Could not build wheels for maturin, which is required to install pyproject.toml-based projects`
+#### Github Codespaces
+
+* Install only takes a couple of minutes
+
 
 ## References
 
