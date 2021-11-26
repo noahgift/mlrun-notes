@@ -1,0 +1,13 @@
+kind: job
+metadata:
+  name: remote-git-test
+  project: default
+  tag: latest
+spec:
+  command: 'myfunc.py'
+  args: []
+  image_pull_policy: Always
+  build:
+    commands: ['pip install pandas']
+    base_image: mlrun/mlrun:dev
+    source: git://github.com/mlrun/ci-demo.git
