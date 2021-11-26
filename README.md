@@ -33,11 +33,18 @@ A repository for notes on [mlrun](https://github.com/mlrun/mlrun)
 
 ## Getting Started
 
-* Install (Make sure you have the latest `pip`)
+* Install (Make sure you have the latest `pip`).  Install will take several minutes and requires Rust and Cython.
 
+Create and source a python virtualenv:  `python3 -m venv ~/.mlrun-notes && source ~/.mlrun-notes/bin/activate`
 `pip install --upgrade pip && pip install mlrun`
 
 
+## Common Install Errors and Gotchas
+
+* Operating Specific:
+  * OS X (install latest Python):  `brew install python`   
+
+* `ModuleNotFoundError: No module named 'Cython'`
 
 
 ## References
