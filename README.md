@@ -31,7 +31,16 @@ A repository for notes on [mlrun](https://github.com/mlrun/mlrun)
 * Workflow
 * UI
 
-## Getting Started
+
+## Getting started with official docs
+
+* Locally use Docker Desktop as described in [Install MLRun on a Kubernetes Cluster](https://docs.mlrun.org/en/latest/install.html#install-mlrun-on-a-kubernetes-cluster)
+
+* Select "enable Kubernetes" in Docker Desktop
+* Install helm `brew install helm`
+
+
+## Getting Started via manual install and Github README
 
 * Install (Make sure you have the latest `pip`).  Install on OS X will take several minutes and requires Rust and Cython.
 
@@ -54,12 +63,11 @@ Create and source a python virtualenv:  `python3 -m venv ~/.mlrun-notes && sourc
 
 #### Github Codespaces
 
-* Install only takes a couple of minutes
+* Install only takes a couple of minutes to install
 
+### Tutorial Specific:
 
-* Tutorial Specific:
-
-[Automated Code Deployment and Containerization-Example](https://github.com/mlrun/mlrun#automated-code-deployment-and-containerization)
+* [Automated Code Deployment and Containerization-Example](https://github.com/mlrun/mlrun#automated-code-deployment-and-containerization)
 
 ```
 (.mlrun-notes) ➜  functions git:(main) ✗ mlrun build function.yaml
@@ -70,6 +78,13 @@ Create and source a python virtualenv:  `python3 -m venv ~/.mlrun-notes && sourc
 deploy error, local docker registry is not defined, set DEFAULT_DOCKER_REGISTRY/SECRET env vars
 ```
 
+* Replace README.md with [official docs link which is up to date and mentions Docker based workflows](https://docs.mlrun.org/en/latest/tutorial/01-mlrun-basics.html#introduction-to-mlrun)
+
+
+
+
+
+
 
 ## Potential Enhancements
 
@@ -77,6 +92,7 @@ deploy error, local docker registry is not defined, set DEFAULT_DOCKER_REGISTRY/
 * Target environment recommendation:  Github Codespaces, AWS Cloudshell, etc
 * Hello World using a pre-built Docker pull command
 * Separate demos with foolproof "hello world" commands for each architectural component
+* More clear link to official docs
 
 ## References
 
