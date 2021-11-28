@@ -31,22 +31,32 @@ A repository for notes on [mlrun](https://github.com/mlrun/mlrun)
 * Workflow
 * UI
 
+## Hoste Platform Notes
 
-## Getting started with official docs
+* Safari not supported, used Chrome
+
+### Part 1:  MLRun Basics
+
+Must do TWO THINGS before you run [tutorial](https://docs.mlrun.org/en/latest/tutorial/01-mlrun-basics.html) on hosted platform:
+
+1. !/User/align_mlrun.sh
+2. Restart Kernel
+
+
+
+
+
+
+
+## Install Notes
+### Getting started with official docs
 
 * Locally use Docker Desktop as described in [Install MLRun on a Kubernetes Cluster](https://docs.mlrun.org/en/latest/install.html#install-mlrun-on-a-kubernetes-cluster)
 
-* Select "enable Kubernetes" in Docker Desktop
-* Install helm `brew install helm`
-
-* Create private Docker Repo
-
-![mlrun](https://user-images.githubusercontent.com/58792/143784516-52a10d8c-986d-464e-b562-202d1ce0b984.png)
+* Follow steps described.
 
 
-
-
-## Getting Started via manual install and Github README 
+### Getting Started via manual install and Github README 
 
 * Install (Make sure you have the latest `pip`).  Install on OS X will take several minutes and requires Rust and Cython.
 
@@ -54,7 +64,7 @@ A repository for notes on [mlrun](https://github.com/mlrun/mlrun)
 `pip install --upgrade pip && pip install mlrun`
 
 
-## Common Install Errors and Gotchas for Manual Install
+### Common Install Errors and Gotchas for Manual Install
 
 ### Operating Specific:
 #### OS X 
