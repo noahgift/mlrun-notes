@@ -40,15 +40,15 @@ A repository for notes on [mlrun](https://github.com/mlrun/mlrun)
 * Install helm `brew install helm`
 
 
-## Getting Started via manual install and Github README
+## Getting Started via manual install and Github README 
 
 * Install (Make sure you have the latest `pip`).  Install on OS X will take several minutes and requires Rust and Cython.
 
-Create and source a python virtualenv:  `python3 -m venv ~/.mlrun-notes && source ~/.mlrun-notes/bin/activate`
+* Create and source a python virtualenv:  `python3 -m venv ~/.mlrun-notes && source ~/.mlrun-notes/bin/activate`
 `pip install --upgrade pip && pip install mlrun`
 
 
-## Common Install Errors and Gotchas
+## Common Install Errors and Gotchas for Manual Install
 
 ### Operating Specific:
 #### OS X 
@@ -81,14 +81,9 @@ deploy error, local docker registry is not defined, set DEFAULT_DOCKER_REGISTRY/
 * Replace README.md with [official docs link which is up to date and mentions Docker based workflows](https://docs.mlrun.org/en/latest/tutorial/01-mlrun-basics.html#introduction-to-mlrun)
 
 
-
-
-
-
-
 ## Potential Enhancements
 
-* Hello World example
+* Hello World example in "one line"
 * Target environment recommendation:  Github Codespaces, AWS Cloudshell, etc
 * Hello World using a pre-built Docker pull command
 * Separate demos with foolproof "hello world" commands for each architectural component
