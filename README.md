@@ -39,6 +39,12 @@ A repository for notes on [mlrun](https://github.com/mlrun/mlrun)
 * Select "enable Kubernetes" in Docker Desktop
 * Install helm `brew install helm`
 
+* Create private Docker Repo
+
+![mlrun](https://user-images.githubusercontent.com/58792/143784516-52a10d8c-986d-464e-b562-202d1ce0b984.png)
+
+
+
 
 ## Getting Started via manual install and Github README 
 
