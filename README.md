@@ -31,7 +31,7 @@ A repository for notes on [mlrun](https://github.com/mlrun/mlrun)
 * Workflow
 * UI
 
-## Hoste Platform Notes
+## Hosted Platform Notes
 
 * Safari not supported, used Chrome
 
