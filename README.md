@@ -108,3 +108,5 @@ deploy error, local docker registry is not defined, set DEFAULT_DOCKER_REGISTRY/
 ## References
 
 * [mlrun](https://github.com/mlrun/mlrun) 
+* [Watch on Pragmatic AI Labs](https://lnkd.in/ee9CXrsp)
+* [Watch on O'Reilly Media](https://lnkd.in/eQ2YCjq)
