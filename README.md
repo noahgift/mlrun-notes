@@ -104,6 +104,7 @@ deploy error, local docker registry is not defined, set DEFAULT_DOCKER_REGISTRY/
 * Hello World using a pre-built Docker pull command
 * Separate demos with foolproof "hello world" commands for each architectural component
 * More clear link to official docs
+* Point to a VM based solution:  i.e AWS AMI, etc.
 
 ## References
 
